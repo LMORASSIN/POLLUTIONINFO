@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PollutionDetailFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvDetailTitle"
+            android:layout_gravity="center"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:id="@+id/tvAqiLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvAqiLabel" />
+
+        <TextView
+            android:id="@+id/tvAqi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32dp"/>
+
+        <TextView
+            android:id="@+id/tvDominentpolLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvDominentpolLabel"
+            />
+
+        <TextView
+            android:id="@+id/tvDominentpol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/tvPm10Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPm10Label" />
+
+        <TextView
+            android:id="@+id/tvPm10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"/>
+        <TextView
+            android:id="@+id/tvPm25Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPm25Label" />
+
+        <TextView
+            android:id="@+id/tvPm25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

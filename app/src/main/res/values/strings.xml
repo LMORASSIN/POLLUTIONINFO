@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pollution Info</string>
+    <string name="tvDetailTitle">Niveaux de pollution</string>
+    <string name="tvAqiLabel">AQI :</string>
+    <string name="tvPm10Label">PM10 :</string>
+    <string name="tvPm25Label">PM25 :</string>
+    <string name="tvLocation">My Location</string>
+    <string name="tvDominentpolLabel">Dominent Pollution</string>
+</resources>

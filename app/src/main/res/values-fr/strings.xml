@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pollution Info</string>
+    <string name="tvDetailTitle">Niveaux de pollution</string>
+    <string name="tvAqiLabel">AQI :</string>
+    <string name="tvPm10Label">PM10 :</string>
+    <string name="tvPm25Label">PM25 :</string>
+    <string name="tvLocation">Ma position</string>
+    <string name="tvDominentpolLabel">Pollution Dominante</string>
+</resources>
